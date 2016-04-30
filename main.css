@@ -1,0 +1,346 @@
+@font-face {
+  font-family:'Rubberstamp'; src:url('Fonts/RUBBERSTAMP.otf');
+
+}
+
+@font-face {
+    font-family:'Toxtypewriter'; src:url('Fonts/ToxTypewriter.ttf');
+}
+
+@font-face {
+    font-family:'BrandonGrotesque'; src:url('Fonts/Brandon_med.otf');
+}
+
+@font-face {
+    font-family:'AdobeGaramond'; src:url('Fonts/Adobe_Garamond_Pro_Regular.ttf');
+}
+
+body{
+  color:#545454;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3{
+  font-family: BrandonGrotesque;
+}
+
+h3{
+  font-size: 2em;
+  color: #45b29a;
+}
+
+p{
+  font-family: AdobeGaramond;
+  font-size: 1.5em;
+}
+
+section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+}
+
+nav li a{
+  font-family: Toxtypewriter;
+  font-size: 1.5rem;
+}
+
+article header h2{
+  color: #1e836c;
+  text-align: center;
+  font-size: 3.8em;
+  font-weight: 400;
+}
+
+.selected{
+  background-color: #212121;
+}
+
+.backImage{
+  background-image: url('Gamer.jpg');
+  width:1921px;
+  height:1000px;
+  z-index:-1;
+}
+
+.header{
+  position: absolute;
+  top: 100px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+}
+
+.header h1{
+  font-family: Rubberstamp;
+}
+
+.header p{
+  font-family: Toxtypewriter;
+  font-size: 32px;
+}
+
+#hello{
+  margin-top: 84px;
+}
+
+#hello article{
+  margin: 0 auto;
+  max-width: 460px;
+}
+
+#hello h3{
+  font-size: 2em;
+}
+
+#hello p{
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #545454;
+}
+
+#hello img{
+  border-radius:100%;
+  width: 150px;
+  height: 150px;
+}
+
+#what-i-do header{
+  padding: 0 0 30px 0;
+}
+
+#what-i-do h2{
+  font-size: 3.5em;
+  color: #1e836c;
+}
+
+#what-i-do figure{
+  margin-left: 0;
+  max-width: 150px;
+}
+
+#what-i-do figure .programmer{
+  width: 150px;
+  height: 150px;
+}
+
+#what-i-do .right{
+  right: 5px;
+}
+
+#what-i-do .left{
+  left: 0;
+}
+
+#what-i-do .bubble img{
+  width: 77px;
+  height: 77px;
+}
+
+#what-i-do .bubble{
+  width: 77px;
+  height: 77px;
+  border-radius: 60px;
+  position: absolute;
+  top: 1.5em;
+}
+
+#what-i-do .turnIdeas{
+  text-align: left;
+  padding: 0 0 0 2em;
+}
+
+#what-i-do h3{
+  padding: 0 0 1em;
+  margin: 0;
+  font-size: 2em;
+  color: #45b29a;
+}
+
+#what-i-do p{
+  font-size: 1.3em;
+}
+
+#what-i-do #makeGames{
+  margin: 3em 0 6em;
+}
+
+.make-games-info{
+  margin: 0 auto;
+  text-align: left;
+  background-image: url('DottedLine.png');
+  background-position: center center;
+  background-repeat: repeat-x;
+  position: relative;
+}
+
+.develop-info{
+  margin: 0 auto;
+  background-image: url('DottedLine.png');
+  background-position: center center;
+  background-repeat: repeat-x;
+  position: relative;
+  min-height: 155px;
+}
+
+.develop-info figure{
+  margin: 0;
+  float: right;
+}
+
+.develop-info figure img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: right;
+}
+
+.develop-info .left figure img {
+  margin-top: 15px;
+}
+
+#i-can-help h3{
+  padding-top: 1em;
+}
+
+#i-can-help p{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.msgMeBtn{
+  margin: 1.5em;
+  font-size: 0.7em;
+}
+
+footer{
+  background:#c5ded7;
+  padding: 3em 0;
+}
+
+footer p{
+  text-align: center;
+  color:#45b29a;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 2.5em 0 0 ;
+  margin: 0;
+}
+
+footer .footer-list{
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+footer .footer-list li{
+  display: block;
+  float: left;
+  width: 33.333%;
+}
+
+footer .footer-list a{
+  text-decoration: none;
+  color: #45b29a;
+  font-size: 1.1em;
+  text-align: center;
+  display: block;
+}
+
+/******************************************************WORK HTML STYLE***************************/
+/******************************************************WORK HTML STYLE***************************/
+/******************************************************WORK HTML STYLE***************************/
+/******************************************************WORK HTML STYLE***************************/
+
+
+.backImageWork{
+  background-image: url('Work.jpg');
+  width:1921px;
+  height:500px;
+  z-index:-1;
+}
+
+.headerWork h1{
+  font-family: Rubberstamp;
+  position: absolute;
+  top: 250px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 72px;
+  color: white;
+}
+
+#bengkel1{
+  background:#7dcc93;
+}
+
+.work-shots{
+  padding: 6em 0 0 0;
+  border: 1px solid rgba(1,1,1,0);
+}
+
+.work-shots .shot{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.work-shots .shot img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.work-shots .shot-info{
+  padding: 3.5em 0;
+}
+
+.work-shots .shot-info h2,
+.work-shots .shot-info h1,
+.work-shots .shot-info h3,
+.work-shots .shot-info p{
+  color:#fff;
+}
+
+.work-shots .shot-info h3{
+  margin: 0;
+  font-family: AdobeGaramond;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding-bottom: 1.5em;
+}
+
+.work-shots .shot-info p{
+  margin: 0 auto;
+  padding-bottom: 1em;
+  font-size: 1.4em;
+  max-width: 550px;
+  text-align: center;
+}
+
+.work-shots{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#bengkel2{
+  background: #f76160;
+}
+
+#PSM{
+  background: #21364b;
+}
