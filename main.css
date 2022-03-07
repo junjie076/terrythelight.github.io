@@ -285,10 +285,6 @@ footer .footer-list a{
   color: white;
 }
 
-#bengkel1{
-  background:#7dcc93;
-}
-
 .work-shots{
   padding: 6em 0 0 0;
   border: 1px solid rgba(1,1,1,0);
@@ -337,6 +333,11 @@ footer .footer-list a{
 .work-shots{
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.work-shots .shot-info .work-inline{
+  display: inline-block;
+  margin-right: 20px;
 }
 
 #bengkel2{
@@ -393,6 +394,10 @@ footer .footer-list a{
 
 #pblast{
   background:#96D5F5;
+}
+
+#gfm{
+  background:#7dcc93;
 }
 
 #newSec {
